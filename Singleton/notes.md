@@ -26,3 +26,7 @@ def my_decorator(func):
 @my_decorator
 def say_whee((*args, **kwargs):
     print("Whee!")
+
+you can also use a metaclass, probably the nicest implementation
+
+monostate- all objects map to a single dict 
